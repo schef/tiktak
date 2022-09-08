@@ -4,7 +4,7 @@
   <Component Name="SourceControl" />
   <WorkspaceState>
     <LastBuildConfiguration>Debug</LastBuildConfiguration>
-    <LastBuildGameFileName>DataFile=tik_tak,Windows=tik_tak,</LastBuildGameFileName>
+    <LastBuildGameFileName>DataFile=tik_tak,Windows=tik_tak,_Debug=tik_tak,</LastBuildGameFileName>
     <RequiresRebuild>False</RequiresRebuild>
   </WorkspaceState>
 </AGSEditorUserData>
