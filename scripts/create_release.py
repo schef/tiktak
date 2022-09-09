@@ -10,8 +10,8 @@ from subprocess import Popen
 import shutil
 
 EXPORT = "./releases"
-NAME = "tiktak"
-FROM = "./ags/tik_tak/Compiled/Windows"
+NAME = "TheTicTacStory"
+FROM = "./ags/TheTicTacStory/Compiled/Windows"
 
 
 class Base:
