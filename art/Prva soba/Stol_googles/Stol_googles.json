@@ -1,0 +1,74 @@
+{ "frames": {
+   "Stol_googles 0.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 24, "h": 42 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 42 },
+    "sourceSize": { "w": 24, "h": 42 },
+    "duration": 900
+   },
+   "Stol_googles 1.aseprite": {
+    "frame": { "x": 24, "y": 0, "w": 24, "h": 42 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 42 },
+    "sourceSize": { "w": 24, "h": 42 },
+    "duration": 900
+   },
+   "Stol_googles 2.aseprite": {
+    "frame": { "x": 48, "y": 0, "w": 24, "h": 42 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 42 },
+    "sourceSize": { "w": 24, "h": 42 },
+    "duration": 900
+   },
+   "Stol_googles 3.aseprite": {
+    "frame": { "x": 72, "y": 0, "w": 24, "h": 42 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 42 },
+    "sourceSize": { "w": 24, "h": 42 },
+    "duration": 900
+   },
+   "Stol_googles 4.aseprite": {
+    "frame": { "x": 96, "y": 0, "w": 24, "h": 42 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 42 },
+    "sourceSize": { "w": 24, "h": 42 },
+    "duration": 900
+   },
+   "Stol_googles 5.aseprite": {
+    "frame": { "x": 120, "y": 0, "w": 24, "h": 42 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 42 },
+    "sourceSize": { "w": 24, "h": 42 },
+    "duration": 900
+   },
+   "Stol_googles 6.aseprite": {
+    "frame": { "x": 144, "y": 0, "w": 24, "h": 42 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 42 },
+    "sourceSize": { "w": 24, "h": 42 },
+    "duration": 900
+   }
+ },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.2.40-x64",
+  "image": "Stol_googles.png",
+  "format": "RGBA8888",
+  "size": { "w": 168, "h": 42 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Layer 1", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

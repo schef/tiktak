@@ -1,0 +1,138 @@
+{ "frames": {
+   "kugla_u_stol_animacija 0.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 24, "h": 42 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 42 },
+    "sourceSize": { "w": 24, "h": 42 },
+    "duration": 100
+   },
+   "kugla_u_stol_animacija 1.aseprite": {
+    "frame": { "x": 24, "y": 0, "w": 24, "h": 42 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 42 },
+    "sourceSize": { "w": 24, "h": 42 },
+    "duration": 100
+   },
+   "kugla_u_stol_animacija 2.aseprite": {
+    "frame": { "x": 48, "y": 0, "w": 24, "h": 42 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 42 },
+    "sourceSize": { "w": 24, "h": 42 },
+    "duration": 100
+   },
+   "kugla_u_stol_animacija 3.aseprite": {
+    "frame": { "x": 72, "y": 0, "w": 24, "h": 42 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 42 },
+    "sourceSize": { "w": 24, "h": 42 },
+    "duration": 100
+   },
+   "kugla_u_stol_animacija 4.aseprite": {
+    "frame": { "x": 96, "y": 0, "w": 24, "h": 42 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 42 },
+    "sourceSize": { "w": 24, "h": 42 },
+    "duration": 100
+   },
+   "kugla_u_stol_animacija 5.aseprite": {
+    "frame": { "x": 120, "y": 0, "w": 24, "h": 42 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 42 },
+    "sourceSize": { "w": 24, "h": 42 },
+    "duration": 100
+   },
+   "kugla_u_stol_animacija 6.aseprite": {
+    "frame": { "x": 144, "y": 0, "w": 24, "h": 42 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 42 },
+    "sourceSize": { "w": 24, "h": 42 },
+    "duration": 100
+   },
+   "kugla_u_stol_animacija 7.aseprite": {
+    "frame": { "x": 168, "y": 0, "w": 24, "h": 42 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 42 },
+    "sourceSize": { "w": 24, "h": 42 },
+    "duration": 100
+   },
+   "kugla_u_stol_animacija 8.aseprite": {
+    "frame": { "x": 192, "y": 0, "w": 24, "h": 42 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 42 },
+    "sourceSize": { "w": 24, "h": 42 },
+    "duration": 400
+   },
+   "kugla_u_stol_animacija 9.aseprite": {
+    "frame": { "x": 216, "y": 0, "w": 24, "h": 42 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 42 },
+    "sourceSize": { "w": 24, "h": 42 },
+    "duration": 900
+   },
+   "kugla_u_stol_animacija 10.aseprite": {
+    "frame": { "x": 240, "y": 0, "w": 24, "h": 42 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 42 },
+    "sourceSize": { "w": 24, "h": 42 },
+    "duration": 900
+   },
+   "kugla_u_stol_animacija 11.aseprite": {
+    "frame": { "x": 264, "y": 0, "w": 24, "h": 42 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 42 },
+    "sourceSize": { "w": 24, "h": 42 },
+    "duration": 900
+   },
+   "kugla_u_stol_animacija 12.aseprite": {
+    "frame": { "x": 288, "y": 0, "w": 24, "h": 42 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 42 },
+    "sourceSize": { "w": 24, "h": 42 },
+    "duration": 900
+   },
+   "kugla_u_stol_animacija 13.aseprite": {
+    "frame": { "x": 312, "y": 0, "w": 24, "h": 42 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 42 },
+    "sourceSize": { "w": 24, "h": 42 },
+    "duration": 900
+   },
+   "kugla_u_stol_animacija 14.aseprite": {
+    "frame": { "x": 336, "y": 0, "w": 24, "h": 42 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 24, "h": 42 },
+    "sourceSize": { "w": 24, "h": 42 },
+    "duration": 900
+   }
+ },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.2.40-x64",
+  "image": "kugla_u_stol_animacija.png",
+  "format": "RGBA8888",
+  "size": { "w": 360, "h": 42 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Layer 1", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

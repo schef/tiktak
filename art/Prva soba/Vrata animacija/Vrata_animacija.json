@@ -1,0 +1,82 @@
+{ "frames": {
+   "Vrata_animacija 0.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 320, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 320, "h": 200 },
+    "sourceSize": { "w": 320, "h": 200 },
+    "duration": 500
+   },
+   "Vrata_animacija 1.aseprite": {
+    "frame": { "x": 320, "y": 0, "w": 320, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 320, "h": 200 },
+    "sourceSize": { "w": 320, "h": 200 },
+    "duration": 500
+   },
+   "Vrata_animacija 2.aseprite": {
+    "frame": { "x": 640, "y": 0, "w": 320, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 320, "h": 200 },
+    "sourceSize": { "w": 320, "h": 200 },
+    "duration": 500
+   },
+   "Vrata_animacija 3.aseprite": {
+    "frame": { "x": 960, "y": 0, "w": 320, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 320, "h": 200 },
+    "sourceSize": { "w": 320, "h": 200 },
+    "duration": 500
+   },
+   "Vrata_animacija 4.aseprite": {
+    "frame": { "x": 1280, "y": 0, "w": 320, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 320, "h": 200 },
+    "sourceSize": { "w": 320, "h": 200 },
+    "duration": 500
+   },
+   "Vrata_animacija 5.aseprite": {
+    "frame": { "x": 1600, "y": 0, "w": 320, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 320, "h": 200 },
+    "sourceSize": { "w": 320, "h": 200 },
+    "duration": 500
+   },
+   "Vrata_animacija 6.aseprite": {
+    "frame": { "x": 1920, "y": 0, "w": 320, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 320, "h": 200 },
+    "sourceSize": { "w": 320, "h": 200 },
+    "duration": 500
+   },
+   "Vrata_animacija 7.aseprite": {
+    "frame": { "x": 2240, "y": 0, "w": 320, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 320, "h": 200 },
+    "sourceSize": { "w": 320, "h": 200 },
+    "duration": 500
+   }
+ },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.2.40-x64",
+  "image": "Vrata_animacija.png",
+  "format": "RGBA8888",
+  "size": { "w": 2560, "h": 200 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Layer 1", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}
