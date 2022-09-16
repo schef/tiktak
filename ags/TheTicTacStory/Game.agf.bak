@@ -3506,20 +3506,16 @@
           </SpriteFolder>
           <SpriteFolder Name="FirstRoom">
             <SubFolders>
-              <SpriteFolder Name="Button">
-                <SubFolders />
-                <Sprites />
-              </SpriteFolder>
-              <SpriteFolder Name="Stol">
+              <SpriteFolder Name="red_wall_button">
                 <SubFolders />
                 <Sprites>
-                  <Sprite Slot="2" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="32" Width="8" Height="6" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                      <FileName>Z:\home\schef\git\tiktak\art\red_wall_button\red_wall_button.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
+                      <ImportHeight>6</ImportHeight>
+                      <ImportWidth>8</ImportWidth>
                       <ImportAsTile>True</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -3528,433 +3524,13 @@
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="3" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="33" Width="8" Height="6" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>24</OffsetX>
+                      <FileName>Z:\home\schef\git\tiktak\art\red_wall_button\red_wall_button.png</FileName>
+                      <OffsetX>8</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="4" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>48</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="5" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>72</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="6" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>96</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="7" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>120</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="8" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>144</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="9" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>168</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="10" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>192</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="11" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>216</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="12" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>240</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="13" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>264</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="14" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>288</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="15" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>312</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="16" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>336</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="17" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>360</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="18" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>384</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="19" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>408</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="20" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>432</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="21" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>456</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="22" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>480</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="23" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>504</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="24" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>528</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="25" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>552</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="26" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>576</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="27" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>600</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="28" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>624</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="29" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>648</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="30" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>672</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
-                      <ImportAsTile>True</ImportAsTile>
-                      <Frame>0</Frame>
-                      <RemapToGamePalette>False</RemapToGamePalette>
-                      <RemapToRoomPalette>False</RemapToRoomPalette>
-                      <ImportMethod>LeaveAsIs</ImportMethod>
-                      <ImportAlphaChannel>True</ImportAlphaChannel>
-                    </Source>
-                  </Sprite>
-                  <Sprite Slot="31" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
-                    <Source>
-                      <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
-                      <OffsetX>696</OffsetX>
-                      <OffsetY>0</OffsetY>
-                      <ImportHeight>42</ImportHeight>
-                      <ImportWidth>24</ImportWidth>
+                      <ImportHeight>6</ImportHeight>
+                      <ImportWidth>8</ImportWidth>
                       <ImportAsTile>True</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -3965,7 +3541,807 @@
                   </Sprite>
                 </Sprites>
               </SpriteFolder>
-              <SpriteFolder Name="Vrata">
+              <SpriteFolder Name="sphere_table">
+                <SubFolders>
+                  <SpriteFolder Name="left">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="2" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="3" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>24</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="4" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>48</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="5" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>72</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="6" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>96</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="7" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>120</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="8" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>144</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="9" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>168</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="10" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>192</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="11" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>216</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="12" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>240</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="13" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>264</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="14" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>288</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="15" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>312</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="16" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>336</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="17" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>360</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="18" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>384</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="19" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>408</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="20" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>432</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="21" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>456</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="22" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>480</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="23" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>504</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="24" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>528</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="25" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>552</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="26" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>576</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="27" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>600</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="28" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>624</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="29" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>648</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="30" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>672</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="31" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\Test\stol_1_animacija.png</FileName>
+                          <OffsetX>696</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="sphere_to_table">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="34" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\sphere_table\sphere_into_table.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="35" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\sphere_table\sphere_into_table.png</FileName>
+                          <OffsetX>24</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="36" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\sphere_table\sphere_into_table.png</FileName>
+                          <OffsetX>48</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="37" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\sphere_table\sphere_into_table.png</FileName>
+                          <OffsetX>72</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="38" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\sphere_table\sphere_into_table.png</FileName>
+                          <OffsetX>96</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="39" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\sphere_table\sphere_into_table.png</FileName>
+                          <OffsetX>120</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="40" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\sphere_table\sphere_into_table.png</FileName>
+                          <OffsetX>144</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="41" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\sphere_table\sphere_into_table.png</FileName>
+                          <OffsetX>168</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="43" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\sphere_table\sphere_into_table.png</FileName>
+                          <OffsetX>192</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="44" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\sphere_table\sphere_into_table.png</FileName>
+                          <OffsetX>216</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="45" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\sphere_table\sphere_into_table.png</FileName>
+                          <OffsetX>240</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="46" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\sphere_table\sphere_into_table.png</FileName>
+                          <OffsetX>264</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="47" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\sphere_table\sphere_into_table.png</FileName>
+                          <OffsetX>288</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="48" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\sphere_table\sphere_into_table.png</FileName>
+                          <OffsetX>312</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="49" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\sphere_table\sphere_into_table.png</FileName>
+                          <OffsetX>336</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="goggles_on_table">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="50" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\sphere_table\goggles_on_table.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="51" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\sphere_table\goggles_on_table.png</FileName>
+                          <OffsetX>24</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="52" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\sphere_table\goggles_on_table.png</FileName>
+                          <OffsetX>48</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="53" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\sphere_table\goggles_on_table.png</FileName>
+                          <OffsetX>72</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="54" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\sphere_table\goggles_on_table.png</FileName>
+                          <OffsetX>96</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="55" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\sphere_table\goggles_on_table.png</FileName>
+                          <OffsetX>120</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="56" Width="24" Height="42" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\sphere_table\goggles_on_table.png</FileName>
+                          <OffsetX>144</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>42</ImportHeight>
+                          <ImportWidth>24</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                </SubFolders>
+                <Sprites />
+              </SpriteFolder>
+              <SpriteFolder Name="space_ship_portal_door">
                 <SubFolders />
                 <Sprites />
               </SpriteFolder>
@@ -4016,7 +4392,7 @@
             <Views>
               <View>
                 <ID>4</ID>
-                <Name>Stol</Name>
+                <Name>sphere_table</Name>
                 <Loops>
                   <Loop>
                     <ID>0</ID>
@@ -4236,6 +4612,143 @@
                         <Flipped>False</Flipped>
                         <ID>12</ID>
                         <Image>31</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>2</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>4</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>34</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>4</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>35</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>4</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>36</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>4</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>37</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>4</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>4</ID>
+                        <Image>38</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>4</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>5</ID>
+                        <Image>39</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>4</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>6</ID>
+                        <Image>40</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>4</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>7</ID>
+                        <Image>41</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>16</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>8</ID>
+                        <Image>43</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>9</ID>
+                        <Image>44</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>10</ID>
+                        <Image>45</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>11</ID>
+                        <Image>46</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>12</ID>
+                        <Image>47</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>13</ID>
+                        <Image>48</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>14</ID>
+                        <Image>49</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>5</ID>
+                <Name>red_wall_button</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>32</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>33</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -4476,7 +4989,6 @@
       </ViewFolder>
     </Views>
     <DeletedViews>
-      <ViewID>5</ViewID>
       <ViewID>3</ViewID>
       <ViewID>2</ViewID>
     </DeletedViews>
