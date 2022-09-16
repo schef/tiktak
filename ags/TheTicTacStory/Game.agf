@@ -1220,6 +1220,24 @@
               <Event Index="4" />
             </Interactions>
           </InventoryItem>
+          <InventoryItem>
+            <CursorImage>69</CursorImage>
+            <Description>Goggles</Description>
+            <HotspotX>7</HotspotX>
+            <HotspotY>3</HotspotY>
+            <ID>3</ID>
+            <Image>69</Image>
+            <Name>iGoggles</Name>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
         </InventoryItems>
       </InventoryItemFolder>
     </InventoryItems>
@@ -4338,6 +4356,206 @@
                       </Sprite>
                     </Sprites>
                   </SpriteFolder>
+                  <SpriteFolder Name="goggles">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="57" Width="11" Height="3" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\goggles\googles_materijalizacija_v2.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>3</ImportHeight>
+                          <ImportWidth>11</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="58" Width="11" Height="3" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\goggles\googles_materijalizacija_v2.png</FileName>
+                          <OffsetX>11</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>3</ImportHeight>
+                          <ImportWidth>11</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="59" Width="11" Height="3" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\goggles\googles_materijalizacija_v2.png</FileName>
+                          <OffsetX>22</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>3</ImportHeight>
+                          <ImportWidth>11</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="60" Width="11" Height="3" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\goggles\googles_materijalizacija_v2.png</FileName>
+                          <OffsetX>33</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>3</ImportHeight>
+                          <ImportWidth>11</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="61" Width="11" Height="3" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\goggles\googles_materijalizacija_v2.png</FileName>
+                          <OffsetX>44</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>3</ImportHeight>
+                          <ImportWidth>11</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="62" Width="11" Height="3" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\goggles\googles_materijalizacija_v2.png</FileName>
+                          <OffsetX>55</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>3</ImportHeight>
+                          <ImportWidth>11</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="63" Width="11" Height="3" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\goggles\googles_materijalizacija_v2.png</FileName>
+                          <OffsetX>66</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>3</ImportHeight>
+                          <ImportWidth>11</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="64" Width="11" Height="3" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\goggles\googles_materijalizacija_v2.png</FileName>
+                          <OffsetX>77</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>3</ImportHeight>
+                          <ImportWidth>11</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="65" Width="11" Height="3" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\goggles\googles_materijalizacija_v2.png</FileName>
+                          <OffsetX>88</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>3</ImportHeight>
+                          <ImportWidth>11</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="66" Width="11" Height="3" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\goggles\googles_materijalizacija_v2.png</FileName>
+                          <OffsetX>99</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>3</ImportHeight>
+                          <ImportWidth>11</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="67" Width="11" Height="3" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\goggles\googles_materijalizacija_v2.png</FileName>
+                          <OffsetX>110</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>3</ImportHeight>
+                          <ImportWidth>11</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="68" Width="11" Height="3" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\goggles\googles_materijalizacija_v2.png</FileName>
+                          <OffsetX>121</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>3</ImportHeight>
+                          <ImportWidth>11</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="69" Width="11" Height="3" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>Z:\home\schef\git\tiktak\art\goggles\googles_materijalizacija_v2.png</FileName>
+                          <OffsetX>132</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>3</ImportHeight>
+                          <ImportWidth>11</ImportWidth>
+                          <ImportAsTile>True</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
                 </SubFolders>
                 <Sprites />
               </SpriteFolder>
@@ -4683,45 +4901,463 @@
                         <Image>43</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>3</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
                       <ViewFrame>
                         <Delay>36</Delay>
                         <Flipped>False</Flipped>
-                        <ID>9</ID>
+                        <ID>0</ID>
                         <Image>44</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>36</Delay>
                         <Flipped>False</Flipped>
-                        <ID>10</ID>
+                        <ID>1</ID>
                         <Image>45</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>36</Delay>
                         <Flipped>False</Flipped>
-                        <ID>11</ID>
+                        <ID>2</ID>
                         <Image>46</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>36</Delay>
                         <Flipped>False</Flipped>
-                        <ID>12</ID>
+                        <ID>3</ID>
                         <Image>47</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>36</Delay>
                         <Flipped>False</Flipped>
-                        <ID>13</ID>
+                        <ID>4</ID>
                         <Image>48</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>36</Delay>
                         <Flipped>False</Flipped>
+                        <ID>5</ID>
+                        <Image>49</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>4</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>50</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>52</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>53</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>54</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>4</ID>
+                        <Image>55</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>5</ID>
+                        <Image>56</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>5</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames />
+                  </Loop>
+                  <Loop>
+                    <ID>6</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames />
+                  </Loop>
+                  <Loop>
+                    <ID>7</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames />
+                  </Loop>
+                  <Loop>
+                    <ID>8</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames />
+                  </Loop>
+                  <Loop>
+                    <ID>9</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames />
+                  </Loop>
+                  <Loop>
+                    <ID>10</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>6</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>0</ID>
+                        <Image>2</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>6</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>1</ID>
+                        <Image>3</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>6</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>2</ID>
+                        <Image>4</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>6</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>3</ID>
+                        <Image>5</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>6</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>4</ID>
+                        <Image>6</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>6</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>5</ID>
+                        <Image>7</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>6</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>6</ID>
+                        <Image>8</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>6</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>7</ID>
+                        <Image>9</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>4</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>8</ID>
+                        <Image>10</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>3</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>9</ID>
+                        <Image>11</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>2</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>10</ID>
+                        <Image>12</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>2</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>11</ID>
+                        <Image>13</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>2</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>12</ID>
+                        <Image>14</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>3</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>13</ID>
+                        <Image>15</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>6</Delay>
+                        <Flipped>True</Flipped>
                         <ID>14</ID>
+                        <Image>16</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>6</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>15</ID>
+                        <Image>17</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>6</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>16</ID>
+                        <Image>18</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>11</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>0</ID>
+                        <Image>19</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>1</ID>
+                        <Image>20</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>2</ID>
+                        <Image>21</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>3</ID>
+                        <Image>22</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>4</ID>
+                        <Image>23</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>5</ID>
+                        <Image>24</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>6</ID>
+                        <Image>25</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>7</ID>
+                        <Image>26</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>8</ID>
+                        <Image>27</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>9</ID>
+                        <Image>28</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>10</ID>
+                        <Image>29</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>11</ID>
+                        <Image>30</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>12</ID>
+                        <Image>31</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>12</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>4</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>0</ID>
+                        <Image>34</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>4</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>1</ID>
+                        <Image>35</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>4</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>2</ID>
+                        <Image>36</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>4</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>3</ID>
+                        <Image>37</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>4</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>4</ID>
+                        <Image>38</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>4</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>5</ID>
+                        <Image>39</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>4</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>6</ID>
+                        <Image>40</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>4</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>7</ID>
+                        <Image>41</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>16</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>8</ID>
+                        <Image>43</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>13</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>1</ID>
+                        <Image>44</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>2</ID>
+                        <Image>45</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>3</ID>
+                        <Image>46</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>4</ID>
+                        <Image>47</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>5</ID>
+                        <Image>48</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>36</Delay>
+                        <Flipped>True</Flipped>
+                        <ID>6</ID>
                         <Image>49</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
@@ -4749,6 +5385,88 @@
                         <Flipped>False</Flipped>
                         <ID>1</ID>
                         <Image>33</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>3</ID>
+                <Name>goggles</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>4</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>58</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>4</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>60</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>4</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>62</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>4</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>63</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>4</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>4</ID>
+                        <Image>64</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>4</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>5</ID>
+                        <Image>65</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>4</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>6</ID>
+                        <Image>66</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>4</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>7</ID>
+                        <Image>67</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>4</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>8</ID>
+                        <Image>68</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>4</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>9</ID>
+                        <Image>69</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -4989,7 +5707,6 @@
       </ViewFolder>
     </Views>
     <DeletedViews>
-      <ViewID>3</ViewID>
       <ViewID>2</ViewID>
     </DeletedViews>
     <Scripts>
