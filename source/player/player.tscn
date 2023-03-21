@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Texture2D" uid="uid://bb0kto6g7nh31" path="res://resources/art/darkside_detective/Joker_right_s_malim.png" id="1_46653"]
+[ext_resource type="Script" path="res://source/player/player.gd" id="1_bhiao"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xevw3"]
+size = Vector2(2, 8)
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_oekcb"]
+radius = 8.0
+height = 40.0
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_bhiao")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-1, -18)
+texture = ExtResource("1_46653")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -1)
+rotation = 1.5708
+shape = SubResource("RectangleShape2D_xevw3")
+
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
+path_desired_distance = 1.0
+path_max_distance = 200.0
+
+[node name="player_area" type="Area2D" parent="."]
+collision_layer = 2
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="player_area"]
+position = Vector2(-1, -19)
+shape = SubResource("CapsuleShape2D_oekcb")

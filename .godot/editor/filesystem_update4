@@ -1,6 +1,3 @@
-res://level_first.tscn
-res://level_first.gd
-res://red_wall_button.tscn
-res://red_wall_button.gd
-res://player.tscn
-res://player.gd
+res://source/levels/level_first.tscn
+res://source/thing/red_wall_button/red_wall_button.tscn
+res://source/thing/space_ship_portal_door/space_ship_portal_door.tscn

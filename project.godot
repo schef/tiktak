@@ -11,9 +11,13 @@ config_version=5
 [application]
 
 config/name="Tiktak"
-run/main_scene="res://level_first.tscn"
+run/main_scene="res://source/levels/level_first.tscn"
 config/features=PackedStringArray("4.0", "Mobile")
-config/icon="res://icon.svg"
+config/icon="res://resources/icon.svg"
+
+[autoload]
+
+ThingState="*res://source/thing/thing_state.gd"
 
 [display]
 
