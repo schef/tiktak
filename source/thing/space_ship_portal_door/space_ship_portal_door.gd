@@ -3,20 +3,20 @@ extends Thing
 func _ready():
 	super._ready()
 
-func closed():
+func tclosed():
 	description = "A stranged closed door!"
 	visible = false
 	animation.play("closed")
 
-func opening():
+func topening():
 	description = "A stranged opening door!"
 	visible = true
 	animation.play("opening")
 
-func opened():
+func topened():
 	description = "A strange opened door!"
 	visible = true
 	animation.play("opened")
 
-func is_opened():
+func tis_opened():
 	return animation.current_animation == "opened"

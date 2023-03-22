@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3]
+[gd_scene load_steps=5 format=3 uid="uid://dd40ewplf1p1q"]
 
 [ext_resource type="Texture2D" uid="uid://bb0kto6g7nh31" path="res://resources/art/darkside_detective/Joker_right_s_malim.png" id="1_46653"]
 [ext_resource type="Script" path="res://source/player/player.gd" id="1_bhiao"]
