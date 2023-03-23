@@ -1,0 +1,4 @@
+res://source/levels/level_first.tscn
+res://source/levels/level_first.gd
+res://source/thing/sphere_table/sphere_table.tscn
+res://source/player/player.tscn
