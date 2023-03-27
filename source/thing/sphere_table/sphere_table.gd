@@ -1,19 +1,25 @@
 class_name SphereTable
 extends Thing
 
+const ANIM := {
+	HIDDEN = "hidden",
+	LIFTING = "lifting",
+	LOOP = "loop"
+}
+
 func _ready():
 	super._ready()
 
 func thidden():
 	visible = false
-	animation.play("hidden")
+	animation.play(ANIM.HIDDEN)
 
-func trise():
+func tlifting():
 	description = "Sphere show yourself"
 	visible = true
-	animation.play("rise")
+	animation.play(ANIM.LIFTING)
 
-func trotate():
+func tloop():
 	description = "Sphere"
 	visible = true
-	animation.play("rotate")
+	animation.play(ANIM.LOOP)

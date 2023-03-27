@@ -27,15 +27,20 @@ func _on_mouse_over(description = ""):
 
 func _load_scene():
 	button.toff()
-	door.tclosed()
+	door.thidden()
 	sphere_table.thidden()
 
 func _on_mouse_clicked(thing):
 	if thing != null:
 		if thing == button:
-			sphere_table.trise()
+			sphere_table.tlifting()
+		if thing == sphere_table:
+			door.topening()
 
 func _on_animation_finished(thing, anim_name):
 	if thing == sphere_table:
-		if anim_name == "rise":
-			sphere_table.trotate()
+		if anim_name == sphere_table.ANIM.LIFTING:
+			sphere_table.tloop()
+	elif thing == door:
+		if anim_name == door.ANIM.OPENING:
+			door.topened()

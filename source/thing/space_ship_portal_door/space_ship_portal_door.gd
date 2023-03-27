@@ -1,22 +1,25 @@
 extends Thing
 
+const ANIM := {
+	HIDDEN = "hidden",
+	OPENING = "opening",
+	OPENED = "opened"
+}
+
 func _ready():
 	super._ready()
 
-func tclosed():
+func thidden():
 	description = "A stranged closed door!"
 	visible = false
-	animation.play("closed")
+	animation.play(ANIM.HIDDEN)
 
 func topening():
 	description = "A stranged opening door!"
 	visible = true
-	animation.play("opening")
+	animation.play(ANIM.OPENING)
 
 func topened():
 	description = "A strange opened door!"
 	visible = true
-	animation.play("opened")
-
-func tis_opened():
-	return animation.current_animation == "opened"
+	animation.play(ANIM.OPENED)

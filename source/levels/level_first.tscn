@@ -1,7 +1,7 @@
-[gd_scene load_steps=10 format=3 uid="uid://gf25utx8386y"]
+[gd_scene load_steps=13 format=3 uid="uid://gf25utx8386y"]
 
 [ext_resource type="Script" path="res://source/levels/level_first.gd" id="1_ga5ux"]
-[ext_resource type="Texture2D" uid="uid://x5f3l5d1lf7c" path="res://resources/art/room_first/room_first.png" id="1_uplfm"]
+[ext_resource type="Texture2D" uid="uid://cabtlm45lvr08" path="res://source/levels/room_first.png" id="2_5yhv5"]
 [ext_resource type="PackedScene" uid="uid://dd40ewplf1p1q" path="res://source/player/player.tscn" id="2_bd6gd"]
 [ext_resource type="PackedScene" uid="uid://ie5xqsqjqefd" path="res://source/thing/red_wall_button/red_wall_button.tscn" id="4_lev8n"]
 [ext_resource type="PackedScene" uid="uid://xyuww01slc2q" path="res://source/thing/sphere_table/sphere_table.tscn" id="4_pjq6v"]
@@ -9,20 +9,69 @@
 [ext_resource type="Script" path="res://source/thing/red_wall_button/red_wall_button.gd" id="5_ttd0b"]
 [ext_resource type="PackedScene" uid="uid://bljiwv4hkfsnd" path="res://source/thing/space_ship_portal_door/space_ship_portal_door.tscn" id="6_ktoqa"]
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_1abaj"]
+atlas = ExtResource("2_5yhv5")
+region = Rect2(0, 0, 320, 200)
+filter_clip = true
+
 [sub_resource type="NavigationPolygon" id="NavigationPolygon_7sh63"]
 vertices = PackedVector2Array(210, 178, 221, 159, 248, 158, 266, 158, 312, 171, 243, 154, 221, 146, 312, 143, 271, 155, 265, 150, 102, 145, 102, 159, 94, 178, 77, 154, 91, 137, 7, 171, 7, 144, 54, 158, 198, 136, 249, 150, 162, 142, 71, 150, 55, 150, 49, 154, 162, 161, 72, 158)
 polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3, 4), PackedInt32Array(5, 2, 1, 6), PackedInt32Array(7, 4, 8, 9), PackedInt32Array(10, 11, 12, 13, 14), PackedInt32Array(12, 15, 16, 17), PackedInt32Array(18, 7, 9, 19), PackedInt32Array(18, 19, 5, 6), PackedInt32Array(18, 6, 20, 14), PackedInt32Array(14, 20, 10), PackedInt32Array(14, 13, 21), PackedInt32Array(16, 14, 21, 22), PackedInt32Array(16, 22, 23), PackedInt32Array(3, 8, 4), PackedInt32Array(24, 1, 0, 12), PackedInt32Array(11, 24, 12), PackedInt32Array(25, 13, 12), PackedInt32Array(17, 25, 12), PackedInt32Array(17, 16, 23)])
 outlines = Array[PackedVector2Array]([PackedVector2Array(7, 144, 91, 137, 198, 136, 312, 143, 312, 171, 210, 178, 94, 178, 7, 171), PackedVector2Array(102, 159, 162, 161, 221, 159, 221, 146, 162, 142, 102, 145), PackedVector2Array(55, 150, 71, 150, 77, 154, 72, 158, 54, 158, 49, 154), PackedVector2Array(243, 154, 249, 150, 265, 150, 271, 155, 266, 158, 248, 158)])
+
+[sub_resource type="Animation" id="Animation_ov28y"]
+length = 0.1
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextureRect:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = false
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("TextureRect:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = false
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [SubResource("AtlasTexture_1abaj")]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_md8xu"]
+_data = {
+"default": SubResource("Animation_ov28y")
+}
 
 [node name="Node2D" type="Node2D"]
 y_sort_enabled = true
 script = ExtResource("1_ga5ux")
 
 [node name="TextureRect" type="TextureRect" parent="."]
+texture_filter = 1
 offset_right = 40.0
 offset_bottom = 40.0
-texture = ExtResource("1_uplfm")
+texture = SubResource("AtlasTexture_1abaj")
 stretch_mode = 2
+metadata/_aseprite_wizard_config_ = {
+"layer": "",
+"o_ex_p": "",
+"o_folder": "",
+"o_name": "",
+"only_visible": false,
+"op_exp": false,
+"player": "AnimationPlayer",
+"source": "res://resources/art/room_first/room_first.aseprite"
+}
 
 [node name="NavigationRegion2D" type="NavigationRegion2D" parent="."]
 navigation_polygon = SubResource("NavigationPolygon_7sh63")
@@ -48,7 +97,7 @@ autowrap_mode = 1
 [node name="Player" parent="." instance=ExtResource("2_bd6gd")]
 unique_name_in_owner = true
 y_sort_enabled = true
-position = Vector2(45, 149)
+position = Vector2(159, 150)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 limit_left = 0
@@ -64,8 +113,15 @@ y_sort_enabled = true
 position = Vector2(63, 156)
 
 [node name="RedWallButton" parent="Things" instance=ExtResource("4_lev8n")]
+y_sort_enabled = true
 position = Vector2(268, 101)
 script = ExtResource("5_ttd0b")
 
 [node name="SpaceShipPortalDoor" parent="Things" instance=ExtResource("6_ktoqa")]
-position = Vector2(167, 97)
+y_sort_enabled = true
+position = Vector2(163, 131)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_md8xu")
+}

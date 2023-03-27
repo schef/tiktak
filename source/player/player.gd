@@ -2,6 +2,12 @@ class_name Player
 extends CharacterBody2D
 
 @onready var agent: NavigationAgent2D = $NavigationAgent2D
+@onready var animation: AnimationPlayer = $AnimationPlayer
+
+const ANIM := {
+	FLOATING = "floating",
+}
+
 
 const SPEED: int = 500   
 	
@@ -13,6 +19,7 @@ func _ready():
 	agent.avoidance_enabled = true
 	agent.velocity_computed.connect(_on_agent_velocity_computed)
 	agent.navigation_finished.connect(_on_agent_navigation_finished)
+	animation.play(ANIM.FLOATING)
 
 func _physics_process(_delta):
 	if not agent.is_navigation_finished():

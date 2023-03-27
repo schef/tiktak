@@ -51,3 +51,6 @@ func _check_animation():
 
 func _on_animation_player_animation_finished(anim_name: String):
 	self.emit_signal("on_animation_finished", self, anim_name)
+
+func get_animation() -> String:
+	return animation.current_animation
