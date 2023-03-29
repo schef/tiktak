@@ -1,10 +1,17 @@
-CollisionShape2D
+AudioStreamPlayer
+AudioStreamPlayer2D
+Sprite2D
 AnimationPlayer
+Button
+VBoxContainer
+ItemList
+Label
+TextureRect
+AnimationTree
+CollisionShape2D
 Area2D
 Node2D
-Label
 CanvasLayer
-Sprite2D
 AnimatedSprite2D
 StaticBody2D
 CharacterBody2D
@@ -14,6 +21,5 @@ NavigationAgent2D
 MeshInstance2D
 CollisionPolygon2D
 Camera2D
-TextureRect
 ParallaxLayer
 ParallaxBackground

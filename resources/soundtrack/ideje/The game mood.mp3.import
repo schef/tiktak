@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://peqa61vcrcxg"
-path="res://.godot/imported/The game mood.mp3-40f89b7163fc1d06343d0969d6cda9f9.mp3str"
+path="res://.godot/imported/The game mood.mp3-52a49508c01d5e68c56d26e69abf01e3.mp3str"
 
 [deps]
 
-source_file="res://resources/soundtrack/The game mood.mp3"
-dest_files=["res://.godot/imported/The game mood.mp3-40f89b7163fc1d06343d0969d6cda9f9.mp3str"]
+source_file="res://resources/soundtrack/ideje/The game mood.mp3"
+dest_files=["res://.godot/imported/The game mood.mp3-52a49508c01d5e68c56d26e69abf01e3.mp3str"]
 
 [params]
 

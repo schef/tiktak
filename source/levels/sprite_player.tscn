@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://1hhjy5evd2w3"]
+
+[ext_resource type="Script" path="res://source/levels/sprite_player.gd" id="1_oty2n"]
+
+[node name="SpritePlayer" type="AudioStreamPlayer"]
+script = ExtResource("1_oty2n")
