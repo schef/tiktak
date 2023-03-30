@@ -18,8 +18,10 @@ func topening():
 	description = "A stranged opening door!"
 	visible = true
 	animation.play(ANIM.OPENING)
+	sound.play()
 
 func topened():
 	description = "A strange opened door!"
 	visible = true
 	animation.play(ANIM.OPENED)
+	sound.stop()

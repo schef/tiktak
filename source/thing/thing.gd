@@ -3,6 +3,7 @@ extends Node2D
 
 @onready var player_detect_area: Area2D = $PlayerDetectArea
 @onready var animation: AnimationPlayer = $AnimationPlayer
+@onready var sound: AudioStreamPlayer = $AudioStreamPlayer
 
 signal on_mouse_over
 signal on_mouse_clicked

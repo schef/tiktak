@@ -1,7 +1,8 @@
-[gd_scene load_steps=8 format=3 uid="uid://xyuww01slc2q"]
+[gd_scene load_steps=9 format=3 uid="uid://xyuww01slc2q"]
 
 [ext_resource type="Script" path="res://source/thing/sphere_table/sphere_table.gd" id="1_wnsyp"]
 [ext_resource type="Texture2D" uid="uid://biu1nd3kyxo1f" path="res://source/thing/sphere_table/stol_1_animacija.png" id="2_vhrx2"]
+[ext_resource type="AudioStream" uid="uid://bvdgu1uvu6log" path="res://resources/soundtrack/level_1/izlaz_iz_poda_stol.wav" id="3_rhr66"]
 
 [sub_resource type="Animation" id="Animation_l6yvo"]
 resource_name = "hidden"
@@ -80,3 +81,6 @@ collision_mask = 2
 [node name="CollisionShape2D" type="CollisionShape2D" parent="PlayerDetectArea"]
 position = Vector2(0, -30)
 shape = SubResource("CircleShape2D_67prb")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_rhr66")
