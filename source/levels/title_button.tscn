@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://cb4whkgvex5j3"]
+
+[ext_resource type="FontFile" uid="uid://cqqgba56tqh0o" path="res://resources/editundo.ttf" id="1_40fqk"]
+
+[sub_resource type="Theme" id="Theme_ocvem"]
+default_font = ExtResource("1_40fqk")
+
+[node name="Button" type="Button"]
+offset_right = 41.0
+offset_bottom = 23.0
+theme = SubResource("Theme_ocvem")
+text = "Test"

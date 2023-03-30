@@ -5,8 +5,10 @@ extends Node2D
 @onready var door: Thing = $Things/SpaceShipPortalDoor
 @onready var button: Thing = $Things/RedWallButton
 @onready var sphere_table: SphereTable = $Things/SphereTable
+@onready var sprtie_player = $SpritePlayer
 
 func _ready():
+	sprtie_player.play()
 	var things = $Things.get_children()
 	for thing in things:
 		if thing is Thing:

@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://gf25utx8386y"]
+[gd_scene load_steps=14 format=3 uid="uid://gf25utx8386y"]
 
 [ext_resource type="Script" path="res://source/levels/level_first.gd" id="1_ga5ux"]
 [ext_resource type="Texture2D" uid="uid://cabtlm45lvr08" path="res://source/levels/room_first.png" id="2_5yhv5"]
@@ -8,6 +8,7 @@
 [ext_resource type="FontFile" uid="uid://f8kkgxuhhf4c" path="res://resources/scumm-font.ttf" id="4_t2uhb"]
 [ext_resource type="Script" path="res://source/thing/red_wall_button/red_wall_button.gd" id="5_ttd0b"]
 [ext_resource type="PackedScene" uid="uid://bljiwv4hkfsnd" path="res://source/thing/space_ship_portal_door/space_ship_portal_door.tscn" id="6_ktoqa"]
+[ext_resource type="PackedScene" uid="uid://1hhjy5evd2w3" path="res://source/levels/sprite_player.tscn" id="9_6jny3"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1abaj"]
 atlas = ExtResource("2_5yhv5")
@@ -125,3 +126,5 @@ position = Vector2(163, 131)
 libraries = {
 "": SubResource("AnimationLibrary_md8xu")
 }
+
+[node name="SpritePlayer" parent="." instance=ExtResource("9_6jny3")]

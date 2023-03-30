@@ -21,8 +21,8 @@ ThingState="*res://source/thing/thing_state.gd"
 
 [display]
 
-window/size/viewport_width=320
-window/size/viewport_height=200
+window/size/viewport_width=160
+window/size/viewport_height=90
 window/stretch/mode="viewport"
 
 [editor_plugins]
