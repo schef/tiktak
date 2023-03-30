@@ -18,8 +18,10 @@ func tlifting():
 	description = "Sphere show yourself"
 	visible = true
 	animation.play(ANIM.LIFTING)
+	sound.play()
 
 func tloop():
 	description = "Sphere"
 	visible = true
 	animation.play(ANIM.LOOP)
+	sound.stop()

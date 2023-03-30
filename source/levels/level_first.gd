@@ -5,10 +5,9 @@ extends Node2D
 @onready var door: Thing = $Things/SpaceShipPortalDoor
 @onready var button: Thing = $Things/RedWallButton
 @onready var sphere_table: SphereTable = $Things/SphereTable
-@onready var sprtie_player = $SpritePlayer
+@onready var background_player = $AudioStreamPlayer
 
 func _ready():
-	sprtie_player.play()
 	var things = $Things.get_children()
 	for thing in things:
 		if thing is Thing:
@@ -16,6 +15,7 @@ func _ready():
 			thing.on_mouse_clicked.connect(_on_mouse_clicked)
 			thing.on_animation_finished.connect(_on_animation_finished)
 	_load_scene()
+	background_player.play()
 
 func _process(_delta):
 	pass
