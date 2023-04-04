@@ -18,6 +18,7 @@ config/icon="res://resources/icon.svg"
 [autoload]
 
 ThingState="*res://source/thing/thing_state.gd"
+SceneTransition="*res://source/levels/scene_transition.tscn"
 
 [display]
 

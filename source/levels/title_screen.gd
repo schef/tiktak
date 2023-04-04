@@ -11,6 +11,7 @@ extends Node2D
 func _ready():
 	animation.play("default")
 	button1.mouse_entered.connect(_on_mouse_entered)
+	button1.pressed.connect(_on_mouse_pressed)
 	button2.mouse_entered.connect(_on_mouse_entered)
 	button3.mouse_entered.connect(_on_mouse_entered)
 	button4.mouse_entered.connect(_on_mouse_entered)
@@ -21,3 +22,6 @@ func _process(delta):
 
 func _on_mouse_entered():
 	button_sound.play(0.16)
+	
+func _on_mouse_pressed():
+		SceneTransition.change_scene_to_file("res://source/levels/level_first.tscn")
