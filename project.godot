@@ -23,11 +23,12 @@ ThingState="*res://source/thing/thing_state.gd"
 
 window/size/viewport_width=160
 window/size/viewport_height=90
+window/size/mode=3
 window/stretch/mode="viewport"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/AsepriteWizard/plugin.cfg")
+enabled=PackedStringArray("res://addons/AsepriteWizard/plugin.cfg", "res://addons/abfi/plugin.cfg")
 
 [rendering]
 

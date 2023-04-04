@@ -1,219 +1,48 @@
-[gd_scene load_steps=13 format=3 uid="uid://bobbgquqomqlo"]
+[gd_scene load_steps=3 format=3 uid="uid://byep05p0p5kwm"]
 
 [ext_resource type="Texture2D" uid="uid://d1iomw0v68i5a" path="res://source/levels/menu_nebula.png" id="1_2fjdc"]
-[ext_resource type="Script" path="res://source/levels/title_screen.gd" id="1_tj8cy"]
-[ext_resource type="Texture2D" uid="uid://icxjdp5lkv5n" path="res://source/levels/menu.png" id="2_5yipw"]
-[ext_resource type="PackedScene" uid="uid://cb4whkgvex5j3" path="res://source/levels/title_button.tscn" id="3_vpfsk"]
-[ext_resource type="Texture2D" uid="uid://dyyklxx5fctvg" path="res://source/levels/menu_fly_by.png" id="4_cx4x8"]
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_r8tah"]
-atlas = ExtResource("1_2fjdc")
-region = Rect2(0, 0, 160, 90)
-filter_clip = true
-
-[sub_resource type="Animation" id="Animation_o8eb4"]
-length = 0.1
-loop_mode = 1
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:visible")
-tracks/0/interp = 1
-tracks/0/loop_wrap = false
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [true]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath(".:texture")
-tracks/1/interp = 1
-tracks/1/loop_wrap = false
-tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [SubResource("AtlasTexture_r8tah")]
-}
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_wm5sg"]
-atlas = ExtResource("2_5yipw")
-region = Rect2(0, 0, 160, 90)
-filter_clip = true
-
-[sub_resource type="Animation" id="Animation_fwhr2"]
-length = 0.1
-loop_mode = 1
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:visible")
-tracks/0/interp = 1
-tracks/0/loop_wrap = false
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [true]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath(".:texture")
-tracks/1/interp = 1
-tracks/1/loop_wrap = false
-tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [SubResource("AtlasTexture_wm5sg")]
-}
-
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_2ws4o"]
-_data = {
-"default": SubResource("Animation_o8eb4"),
-"menu": SubResource("Animation_fwhr2")
-}
-
-[sub_resource type="Animation" id="Animation_7k4ts"]
-length = 20.79
-loop_mode = 1
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Sprite2D:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = false
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [ExtResource("4_cx4x8")]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("Sprite2D:hframes")
-tracks/1/interp = 1
-tracks/1/loop_wrap = false
-tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [4]
-}
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath("Sprite2D:vframes")
-tracks/2/interp = 1
-tracks/2/loop_wrap = false
-tracks/2/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [4]
-}
-tracks/3/type = "value"
-tracks/3/imported = false
-tracks/3/enabled = true
-tracks/3/path = NodePath("Sprite2D:visible")
-tracks/3/interp = 1
-tracks/3/loop_wrap = false
-tracks/3/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [true]
-}
-tracks/4/type = "value"
-tracks/4/imported = false
-tracks/4/enabled = true
-tracks/4/path = NodePath("Sprite2D:frame")
-tracks/4/interp = 1
-tracks/4/loop_wrap = false
-tracks/4/keys = {
-"times": PackedFloat32Array(0, 0.05, 0.1, 0.15, 0.2, 10.2, 10.22, 10.24, 10.26, 10.28, 10.3, 10.32, 10.34, 10.39, 10.49, 10.64, 10.79),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
-"update": 1,
-"values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 4]
-}
-
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_abigu"]
-_data = {
-"default": SubResource("Animation_7k4ts")
-}
+[ext_resource type="Theme" uid="uid://bllqlcvw0hglk" path="res://source/levels/title_screen_theme.tres" id="2_sjixd"]
 
 [node name="Node2D" type="Node2D"]
-y_sort_enabled = true
-script = ExtResource("1_tj8cy")
 
 [node name="TextureRect" type="TextureRect" parent="."]
-texture_filter = 1
-offset_right = 40.0
-offset_bottom = 40.0
-texture = SubResource("AtlasTexture_r8tah")
-metadata/_aseprite_wizard_config_ = {
-"layer": "",
-"o_ex_p": "",
-"o_folder": "",
-"o_name": "",
-"only_visible": false,
-"op_exp": false,
-"player": "AnimationPlayer",
-"source": "res://resources/art/menu/menu_nebula.aseprite"
-}
+offset_right = 160.0
+offset_bottom = 90.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource("1_2fjdc")
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-root_node = NodePath("../TextureRect")
-libraries = {
-"": SubResource("AnimationLibrary_2ws4o")
-}
+[node name="VBoxContainer" type="VBoxContainer" parent="TextureRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -26.5
+offset_top = -28.0
+offset_right = 26.5
+offset_bottom = 28.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_sjixd")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
-offset_left = 24.0
-offset_top = 16.0
-offset_right = 136.0
-offset_bottom = 82.0
-
-[node name="Button" parent="VBoxContainer" instance=ExtResource("3_vpfsk")]
+[node name="Button" type="Button" parent="TextureRect/VBoxContainer"]
 layout_mode = 2
-text = "NEM GAME"
+theme = ExtResource("2_sjixd")
+text = "New Game"
 
-[node name="Button2" parent="VBoxContainer" instance=ExtResource("3_vpfsk")]
+[node name="Button2" type="Button" parent="TextureRect/VBoxContainer"]
 layout_mode = 2
-text = "LOAD GAME"
+theme = ExtResource("2_sjixd")
+text = "Options"
 
-[node name="Button3" parent="VBoxContainer" instance=ExtResource("3_vpfsk")]
+[node name="Button3" type="Button" parent="TextureRect/VBoxContainer"]
 layout_mode = 2
-text = "OPTIONS"
+theme = ExtResource("2_sjixd")
+text = "Credits"
 
-[node name="Button4" parent="VBoxContainer" instance=ExtResource("3_vpfsk")]
+[node name="Button4" type="Button" parent="TextureRect/VBoxContainer"]
 layout_mode = 2
-text = "QUIT"
-
-[node name="AnimationPlayerComet" type="AnimationPlayer" parent="."]
-libraries = {
-"": SubResource("AnimationLibrary_abigu")
-}
-
-[node name="Sprite2D" type="Sprite2D" parent="."]
-texture_filter = 1
-position = Vector2(80, 45)
-texture = ExtResource("4_cx4x8")
-hframes = 4
-vframes = 4
-frame = 4
-metadata/_aseprite_wizard_config_ = {
-"layer": "",
-"o_ex_p": "",
-"o_folder": "",
-"o_name": "",
-"only_visible": false,
-"op_exp": false,
-"player": "AnimationPlayerComet",
-"source": "res://resources/art/menu/menu_fly_by.aseprite"
-}
+theme = ExtResource("2_sjixd")
+text = "Quit"
