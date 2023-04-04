@@ -1,0 +1,23 @@
+[gd_resource type="Theme" load_steps=3 format=3 uid="uid://b1rigvu0e7qkb"]
+
+[ext_resource type="FontFile" uid="uid://dt1aqqm1dxgbt" path="res://resources/GravityRegular5.ttf" id="1_4bhx1"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jioxg"]
+bg_color = Color(0.835294, 0.878431, 0.941176, 0.717647)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.45098, 0.392157, 0.788235, 0.823529)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+corner_detail = 20
+anti_aliasing = false
+
+[resource]
+Label/colors/font_color = Color(0.415686, 0.745098, 0.188235, 1)
+Label/font_sizes/font_size = 5
+Label/fonts/font = ExtResource("1_4bhx1")
+Label/styles/normal = SubResource("StyleBoxFlat_jioxg")
