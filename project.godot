@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Tiktak"
-run/main_scene="res://source/levels/level_first.tscn"
+run/main_scene="res://source/levels/title_screen.tscn"
 config/features=PackedStringArray("4.0", "Mobile")
 config/icon="res://resources/icon.svg"
 
@@ -28,7 +28,7 @@ window/stretch/mode="viewport"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/AsepriteWizard/plugin.cfg", "res://addons/abfi/plugin.cfg")
+enabled=PackedStringArray("res://addons/AsepriteWizard/plugin.cfg")
 
 [rendering]
 
